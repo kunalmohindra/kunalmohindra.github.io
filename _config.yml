@@ -1,6 +1,6 @@
-title: Fred Hohman
-tagline: Research Scientist at Apple
-url: http://fredhohman.com
+title:  Kunal Mohindra
+tagline: Machine Learning Engineer at Skydance
+url:  https://kunalmohindra.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Kunal Mohindra
+  url: https://kunalmohindra.github.io
+  email: kunalmohindra62@gmail.com
 
 markdown: kramdown
 highlighter: rouge

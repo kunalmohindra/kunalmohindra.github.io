@@ -6,9 +6,9 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Fred Hohman</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Kunal Mohindra</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>(<span class="cv-vis">ML</span> + <span class="cv-ai">Systems</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,7 +30,8 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+
+I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints </b>. In particular, I'm focused on reducing latency and memory costs for these models without sacrificing their quality.
 </div>
 
 <div class="cv-spacer"></div>
@@ -68,7 +69,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endfor %}
 {:/}
 
-## Industry Research Experience
+## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -92,115 +93,43 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 ## Publications
 
-### Selected: Latest & Greatest
+<!-- ### Selected: Latest & Greatest -->
 
-{% assign selectedBoolForBibtex = true %}
+<!-- {% assign selectedBoolForBibtex = true %}
 
 {% assign selected = site.categories.papers | where: 'selected', true %}
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ### All Publications -->
 
 {% assign selectedBoolForBibtex = false %}
 
-### Tech Report
 
-{% assign tech-report = site.categories.papers | where: 'type', "tech-report" %}
-{% for pub in tech-report %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Journal
-
-{% assign journal = site.categories.papers | where: 'type', "journal" %}
-{% for pub in journal %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
 
 ### Conference
 
-{% assign conference = site.categories.papers | where: 'type', "conference" %}
+<!-- {% assign conference = site.categories.papers | where: 'type', "conference" %}
 {% for pub in conference %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
-### Preprint
 
-{% assign preprint = site.categories.papers | where: 'type', "preprint" %}
-{% for pub in preprint %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
 
-### Workshop
-
-{% assign workshop = site.categories.papers | where: 'type', "workshop" %}
-{% for pub in workshop %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Poster
-
-{% assign poster = site.categories.papers | where: 'type', "poster" %}
-{% for pub in poster %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Demo
-
-{% assign demo = site.categories.papers | where: 'type', "demo" %}
-{% for pub in demo %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Miscellaneous
-
-{% assign preprint = site.categories.papers | where: 'type', "misc" %}
-{% for pub in preprint %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-## Talks
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include cv/talk.html talk=title %}
-{% endfor %}
-
-## Press
-
-{% for press in site.data.press %}
-{% include cv/press.html press=press %}
-{% endfor %}
 
 ## Teaching
 
-{% for teach in site.data.teaching %}
+<!-- {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
-{% endfor %}
-
-## Mentoring
-
-{::nomarkdown}
-{% for mentee in site.data.mentoring %}
-{% include cv/mentee.html mentee=mentee %}
-{% endfor %}
-{:/}
+{% endfor %} -->
 
 ## Grants and Funding
 
-{% for fund in site.data.funding %}
+<!-- {% for fund in site.data.funding %}
 {% include cv/fund.html fund=fund %}
-{% endfor %}
+{% endfor %} -->
 
-## Interactive Articles
-
-{% for article in site.data.articles %}
-{% unless article.feature-only %}
-{% include cv/article.html article=article %}
-{% endunless %}
-{% endfor %}
 
 <!-- ## Technology Skills
 
@@ -210,7 +139,7 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 ## Service
 
-<div class="cv-service-title"><b>Organizer</b></div>
+<!-- <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
@@ -233,13 +162,8 @@ I have collaborated with researchers, designers, developers, and artists while w
 <div class="cv-service-title"><b>Member</b></div>
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
-{% endfor %}
+{% endfor %} -->
 
-## Design
-
-{% for design in site.data.designs %}
-{% include cv/design.html design=design %}
-{% endfor %}
 
 ## References
 
@@ -274,9 +198,8 @@ Universe
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "Fred Hohman"
+[kunal]: http://kunalmohindra.github.io "Kunal Mohindra"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
 
 [jpl]: https://www.jpl.nasa.gov/ "NASA Jet Propulsion Lab"
 [hi]: https://www.hi.jpl.nasa.gov/ "Human Interfaces Group at NASA JPL"

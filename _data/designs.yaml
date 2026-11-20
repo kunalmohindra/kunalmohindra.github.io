@@ -12,6 +12,12 @@
   feature-description: Generative AI empowers you to enhance your app or game with dynamic content and offer intelligent features that unlock new levels of creativity, connection, and productivity
   image: /images/featured/technologies-generative-ai-intro@2x.png
 
+#   _data/social-links.yaml
+# _includes/dissertation/document.html
+# _includes/footer.html
+# _includes/head.html
+# index.md
+
 - title: "Charting Data"
   date: 2022
   venue: Apple Human Interface Guidelines

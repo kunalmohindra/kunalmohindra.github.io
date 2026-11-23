@@ -3,15 +3,15 @@
 <div><a href="{{ fund.name-url }}">{{ fund.name }}</a></div>
 
 <div class="cv-description">
-Co-PIs: 
-{% for person in fund.co-pis %}
+	Co-PIs:
+	{% for person in fund.co-pis %}
 	{% if forloop.last == false %}
-		{% include person.html person=person %},	
+	{% include person.html person=person %},
 	{% else if forloop.last == true %}
-		{% include person.html person=person %}
+	{% include person.html person=person %}
 	{% endif %}
-{% endfor %}
+	{% endfor %}
 </div>
-<div class="cv-description">Funded {{ fund.amount }}</div>
+<!-- <div class="cv-description">Funded {{ fund.amount }}</div> -->
 
 <div class="cv-spacer"></div>

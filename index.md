@@ -36,7 +36,6 @@ title: Home
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
 
 
 <br>

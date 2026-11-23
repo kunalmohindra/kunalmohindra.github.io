@@ -6,6 +6,32 @@
 #   description: "Achieved a 4.0 GPA during a semester with minimum 14 credit hours"
 #   year: 2013
 
+
+- name: Lime Connect Fellow
+  description: "1 of 25 chosen nationwide for being a high-achieving students with a disability passionate about increasing diversity in computer science" 
+  year: 2023
+
+- name: Prudential Spirit of Community State Honoree
+  description: "1 of 2 chosen from New York(102 chosen nationwide) for making a positive impact made to community" 
+  year: 2020
+  
+- name: Prudential Spirit of Community State Honoree
+  description: "1 of 2 chosen from New York(102 chosen nationwide) for making a positive impact made to community" 
+  year: 2020
+
+- name: GENIUS Olympiad Finalist Award
+  description: "Awarded based on my research project focused on early detection of melanoma skin cancer with deep learning" 
+  year: 2020
+
+- name: GENIUS Olympiad Gold Award
+  description: "Awarded based on my research project focused on early detection of breast cancer with machine learning" 
+  year: 2019
+
+
+- name: Apple WWDC Scholar
+  description: "1 out of 350 people chosen to attend WWDC Conference based on my Apple project submission" 
+  year: 2019
+  
 - name: Eagle Scout Award
-  description: "Highest achievement attainable in the Boy Scouts of America, only 4% of scouts granted this rank"
-  year: 2021
+  description: "Awarded based on my community service project, where I taught coding classes to elementary school students to increase access to STEM education"
+  year: 2018

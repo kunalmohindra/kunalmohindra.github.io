@@ -31,14 +31,14 @@ jsarr:
 
 <div>
 
-I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints </b>. In particular, I'm focused on reducing latency and memory costs for these models without sacrificing their quality.
+I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints</b>. In particular, I'm focused on reducing latency and memory for these models without sacrificing their quality.
 </div>
 
 <div class="cv-spacer"></div>
 
-<div>
+<!-- <div>
 I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
-</div>
+</div> -->
 
 <div class="cv-spacer"></div>
 
@@ -106,9 +106,13 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 {% assign selectedBoolForBibtex = false %}
 
+{% for pub in site.categories.papers %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
 
 
-### Conference
+
+<!-- ## Conference -->
 
 <!-- {% assign conference = site.categories.papers | where: 'type', "conference" %}
 {% for pub in conference %}
@@ -120,15 +124,15 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 ## Teaching
 
-<!-- {% for teach in site.data.teaching %}
+{% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
-{% endfor %} -->
+{% endfor %}
 
 ## Grants and Funding
 
-<!-- {% for fund in site.data.funding %}
+{% for fund in site.data.funding %}
 {% include cv/fund.html fund=fund %}
-{% endfor %} -->
+{% endfor %}
 
 
 <!-- ## Technology Skills
@@ -138,6 +142,10 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% endfor %} -->
 
 ## Service
+
+{% for service in site.data.service %}
+{% include cv/service.html service=service %}
+{% endfor %}
 
 <!-- <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
@@ -174,8 +182,6 @@ I have collaborated with researchers, designers, developers, and artists while w
 <!-- 
 ## Contact
 
-Fred Hohman  
-`fredhohman@gatech.edu`  
 CODA Tech Square  
 Georgia Tech  
 756 W Peachtree St NW  
@@ -201,13 +207,3 @@ Universe
 [kunal]: http://kunalmohindra.github.io "Kunal Mohindra"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 
-[jpl]: https://www.jpl.nasa.gov/ "NASA Jet Propulsion Lab"
-[hi]: https://www.hi.jpl.nasa.gov/ "Human Interfaces Group at NASA JPL"
-[pnnl]: https://www.pnnl.gov/ "Pacific Northwest National Laboratory"
-[dsa]: http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm "Data Sciences and Analytics Group at PNNL"
-[msr]: https://www.microsoft.com/en-us/research/ "Microsoft Research"
-[msr-hci]: https://www.microsoft.com/en-us/research/group/human-computer-interaction/ "HCI@MSR"
-
-[twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
-[github]: https:/www.github.com/fredhohman "github.com/fredhohman"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"

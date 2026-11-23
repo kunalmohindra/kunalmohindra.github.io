@@ -1,35 +1,33 @@
 - institution: Georgia Institute of Technology
   position: Graduate Teaching Assistant
   location: "Atlanta, GA"
-  year: Spring 2019
-  class: "Information Visualization (CS 4460)"
-  instructor: Alex Endert
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Information Visualization (CS 4460), an undergraduate course with 134 students enrolled."
+  year: Spring 2025
+  class: "Computing and Society (CS 3001)"
+  instructor: Kala Jordan
+  description: "Faciliated discussions for students on ethical topics in computing, graded and provided feedback on writing assignments, and proctored exams"
   institution-url: http://gatech.edu
-  class-url: http://va.gatech.edu/courses/cs4460/
+  class-url: https://oscar.gatech.edu/bprod/bwckctlg.p_disp_course_detail?cat_term_in=202302&subj_code_in=CS&crse_numb_in=3001
   ta: true
 
 - institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant
+  position: Teaching Assistant
   location: "Atlanta, GA"
-  year: Spring 2017
-  class: "Data and Visual Analytics (CSE 6242 / CX 4242)"
-  instructor: Duen Horng (Polo) Chau
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Data and Visual Analytics (CSE 6242 / CX 4242), a graduate course with 214 students enrolled."
+  year: Fall 2024
+  class: "Computing and Society (CS 3001)"
+  instructor: Kala Jordan
+  description: "Led weekly recitations for students, held office hours, proctored exams, and graded assignments/exams"
   institution-url: http://gatech.edu
-  class-url: http://poloclub.gatech.edu/cse6242/2017spring
+  class-url: https://oscar.gatech.edu/bprod/bwckctlg.p_disp_course_detail?cat_term_in=202302&subj_code_in=CS&crse_numb_in=3001
   ta: true
 
-- institution: University of Georgia
-  position: Student Notetaker
-  location: "Athens, GA"
-  year: "2014 — 2015"
-  description: "Generated notes for undergraduate mathematics and physics courses for students with disabilities."
-  ta: false
 
-- institution: University of Georgia
-  position: Tutor
-  location: "Athens, GA"
-  year: "2012"
-  description: "Specialized in tutoring calculus to undergraduates."
-  ta: false
+- institution: Georgia Institute of Technology
+  position: Teaching Assistant
+  location: "Atlanta, GA"
+  year: Summer 2022 - Fall 2023
+  class: "Data Structures and Algorithms (CS 1332)"
+  instructor: Mary Hudachek-Buswell & Frederic Faulkner
+  description: "Led weekly recitations for students, held office hours, proctored exams, and graded assignments/exams"
+  institution-url: http://gatech.edu
+  class-url: https://oscar.gatech.edu/bprod/bwckctlg.p_disp_course_detail?cat_term_in=201202&subj_code_in=CS&crse_numb_in=1332
+  ta: true

@@ -31,14 +31,14 @@ jsarr:
 
 <div>
 
-I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints </b>. In particular, I'm focused on reducing latency and memory costs for these models without sacrificing their quality.
+I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints</b>. In particular, I'm focused on reducing latency and memory for these models without sacrificing their quality.
 </div>
 
 <div class="cv-spacer"></div>
 
-<div>
+<!-- <div>
 I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
-</div>
+</div> -->
 
 <div class="cv-spacer"></div>
 
@@ -106,9 +106,13 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 {% assign selectedBoolForBibtex = false %}
 
+{% for pub in site.categories.papers %}
+{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endfor %}
 
 
-### Conference
+
+<!-- ## Conference -->
 
 <!-- {% assign conference = site.categories.papers | where: 'type', "conference" %}
 {% for pub in conference %}
@@ -120,15 +124,15 @@ I have collaborated with researchers, designers, developers, and artists while w
 
 ## Teaching
 
-<!-- {% for teach in site.data.teaching %}
+{% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
-{% endfor %} -->
+{% endfor %}
 
 ## Grants and Funding
 
-<!-- {% for fund in site.data.funding %}
+{% for fund in site.data.funding %}
 {% include cv/fund.html fund=fund %}
-{% endfor %} -->
+{% endfor %}
 
 
 <!-- ## Technology Skills
@@ -174,8 +178,6 @@ I have collaborated with researchers, designers, developers, and artists while w
 <!-- 
 ## Contact
 
-Fred Hohman  
-`fredhohman@gatech.edu`  
 CODA Tech Square  
 Georgia Tech  
 756 W Peachtree St NW  

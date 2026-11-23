@@ -2,18 +2,18 @@
   location: "New York City, NY"
   position: Machine Learning Engineer
   group: "Search and Personalization"
-  year: "Jan. 2026 — Dec. 2026"
-  description: "Work on backend services serving ML recommendations models that power HBO Max and Discovery + for millions of users"
+  year: "Jan. 2026 - "
+  description: "Develop AI/ML features and work on backend services serving ML recommendation models that power HBO Max and Discovery+ for millions of users"
   institution-url: https://www.skydance.com/
   group-url: https://www.skydance.com/
   type: industry
 
 - institution: Warner Brothers Discovery
   location: "New York City, NY"
-  position: Machine Learning Engineer
+  position: Machine Learning Engineer Intern
   group: "Search and Personalization"
-  year: "Jan. 2026 — Dec. 2026"
-  description: "Developed ML model that produces overall top 10 trending titles for HBO Max and Discovery +"
+  year: "June 2025 — Aug. 2025"
+  description: "Developed a content ranking algorithm that produces overall top 10 trending titles for HBO Max and Discovery+"
   institution-url: https://www.warnerbros.com/
   group-url: https://www.warnerbros.com/
   type: industry
@@ -23,7 +23,17 @@
   position: Software Engineer Intern
   group: "Azure Batch"
   year: "May 2024 — Aug. 2024"
-  description: "Build internal tool to verify ARM templates produced by team's new model"
+  description: "Build validator that compares outputs from new algorithm and legacy algorithms to verify correctness of new algorithm"
+  institution-url: https://www.microsoft.com/en-us
+  group-url: https://www.microsoft.com/en-us
+  type: industry
+
+- institution: Microsoft
+  location: "Redmond, WA"
+  position: Software Engineer Intern
+  group: "Azure Specialized"
+  year: "May 2023 — Aug. 2023"
+  description: "Built interactive dashboard to discover bottlenecks and opportunites for parallelization in software workflow focused on provisioning data centers for customers"
   institution-url: https://www.microsoft.com/en-us
   group-url: https://www.microsoft.com/en-us
   type: industry
@@ -38,6 +48,19 @@
     - Jeongyhun (Jonna) Lee
   advisor: true
   description: "Member of the CEISMIC Lab where I built an collabotative AI educational platform that faciliated student discussions"
+  institution-url: http://gatech.edu
+  group-url: https://www.ceismc.gatech.edu/
+  type: academic
+
+- institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Graduate Research Assistant
+  group: Polo Club of Data Science
+  year: "Aug. 2024 - Dec. 2025"
+  mentors: 
+    - Polo Chau
+  advisor: false
+  description: "Member of the Polo Club of Data Science Lab where I collaborated with other reserachers to develop a web platform that clusters professors based on their research focuses and matches students to professors based on their research interests"
   institution-url: http://gatech.edu
   group-url: https://www.ceismc.gatech.edu/
   type: academic

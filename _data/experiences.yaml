@@ -1,4 +1,4 @@
-- institution: Skydance(Warner Brothers Discovery)
+- institution: Skydance (Warner Brothers Discovery)
   location: "New York City, NY"
   position: Machine Learning Engineer
   group: "Search and Personalization"
@@ -12,7 +12,7 @@
   location: "New York City, NY"
   position: Machine Learning Engineer Intern
   group: "Search and Personalization"
-  year: "June 2025 — Aug. 2025"
+  year: "June 2025 - Aug. 2025"
   description: "Developed a content ranking algorithm that produces overall top 10 trending titles for HBO Max and Discovery+"
   institution-url: https://www.warnerbros.com/
   group-url: https://www.warnerbros.com/
@@ -22,8 +22,8 @@
   location: "Redmond, WA"
   position: Software Engineer Intern
   group: "Azure Batch"
-  year: "May 2024 — Aug. 2024"
-  description: "Build validator that compares outputs from new algorithm and legacy algorithms to verify correctness of new algorithm"
+  year: "May 2024 - Aug. 2024"
+  description: "Built validator that compares outputs produced by new algorithm and legacy algorithms to verify correctness of new algorithm"
   institution-url: https://www.microsoft.com/en-us
   group-url: https://www.microsoft.com/en-us
   type: industry
@@ -32,8 +32,8 @@
   location: "Redmond, WA"
   position: Software Engineer Intern
   group: "Azure Specialized"
-  year: "May 2023 — Aug. 2023"
-  description: "Built interactive dashboard to discover bottlenecks and opportunites for optimization in a software workflow focused on provisioning data centers for customers"
+  year: "May 2023 - Aug. 2023"
+  description: "Built interactive dashboard to discover bottlenecks and opportunities for optimization in a software workflow focused on provisioning data centers for customers"
   institution-url: https://www.microsoft.com/en-us
   group-url: https://www.microsoft.com/en-us
   type: industry
@@ -47,7 +47,7 @@
     - Eunhye (Grace) Flavin
     - Jeongyhun (Jonna) Lee
   advisor: true
-  description: "Member of the CEISMIC Lab where I built an collabotative AI educational platform that faciliated student discussions"
+  description: "Member of the CEISMIC Lab where I built a collaborative AI educational platform that facilitated student discussions"
   institution-url: http://gatech.edu
   group-url: https://www.ceismc.gatech.edu/
   type: academic
@@ -60,7 +60,7 @@
   mentors: 
     - Polo Chau
   advisor: false
-  description: "Member of the Polo Club of Data Science Lab where I collaborated with other reserachers to develop a web platform that clusters professors based on their research focuses and matches students to professors based on their research interests"
+  description: "Member of the Polo Club of Data Science Lab where I collaborated with other researchers to develop a web platform that clusters professors based on their research focuses and matches students to professors based on their research interests"
   institution-url: http://gatech.edu
   group-url: https://www.ceismc.gatech.edu/
   type: academic

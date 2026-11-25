@@ -1,13 +1,13 @@
 - degree: "M.S. in Computer Science"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  years: "Jan. 2025 — Dec. 2025"
+  years: "Jan. 2025 - Dec. 2025"
   institution-url: https://www.gatech.edu/
 
 - degree: "B.S. in Computer Science"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  years: Aug 2021 - Dec. 2024
+  years: Aug. 2021 - Dec. 2024
   institution-url: https://www.gatech.edu/
   description:
     - "GPA: 3.94/4.00"

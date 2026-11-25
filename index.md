@@ -25,7 +25,7 @@ title: Home
 		<a href="{{ site.url }}/cv/#publications"><div><i class="fa fa-list-ul icon icon-right-space"></i>Publications</div></a>
 	</div>
 	<div>
-		I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints </b>. In particular, I'm focused on reducing latency and memory costs for these models without sacrificing their quality.
+		I am interested in building <b>systems for machine learning models</b> to increase their <b>overall efficiency</b> so they meet <b>industry constraints</b>. In particular, I'm focused on reducing latency and memory costs for these models without sacrificing their quality.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>

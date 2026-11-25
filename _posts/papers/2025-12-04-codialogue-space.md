@@ -16,7 +16,7 @@ year: 2026
 # demo: https://apple.github.io/ml-semantic-regex/
 # preview: 
 # video: 
-type: conference
+
 # figure: /images/papers/
 selected: false
 # feature-title: 

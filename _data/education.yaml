@@ -3,6 +3,8 @@
   location: "Atlanta, GA"
   years: "Jan. 2025 - Dec. 2025"
   institution-url: https://www.gatech.edu/
+  description:
+    - "GPA: 3.66/4.00"
 
 - degree: "B.S. in Computer Science"
   institution: Georgia Institute of Technology
